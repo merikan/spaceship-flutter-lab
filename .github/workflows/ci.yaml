@@ -29,7 +29,7 @@ jobs:
   release:
     name: Release
     needs: main
-    if: ${{ github.repository == 'spaceship-prompt/spaceship-flutter' && github.event_name == 'push' }}
+    if: ${{ github.repository == 'merikan/spaceship-flutter-lab' && github.event_name == 'push' }}
     runs-on: ubuntu-latest
     steps:
       - name: ⬇️ Checkout Repo
